@@ -117,6 +117,7 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Entrada inválida! Digite um número de 1 a 8.");
+                System.out.println(" ");
                 input.nextLine(); // limpa o buffer
             }
         } while (opcaoMenu != 8);
